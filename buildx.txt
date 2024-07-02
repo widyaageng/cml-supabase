@@ -1,0 +1,7 @@
+docker buildx build --annotation "version=0.0.1" -f ./kong.Dockerfile -o type=docker -t kongwidya:0.0.1 .
+
+# cleanup boys
+docker system df
+docker image prune
+docker container prune
+docker builder prune
