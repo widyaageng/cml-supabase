@@ -19,6 +19,7 @@ allure-report
 /packages/*
 /playwright-tests/*
 /tests/*
+/examples/*
 
 
 # turbo
